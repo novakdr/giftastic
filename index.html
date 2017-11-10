@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- BOOSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>Giftasic!</title>
+</head>
+<body>
+  <div class="jumbotron jumbo-background">
+
+    <br>
+
+    <div class="container d-flex flex-column">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h1 class="text-white display-1 text-center huge">SHOWTASTIC</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h1 class="text-white display-1 text-center huge">GIFINIMATION</h1>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <p class="lead text-white text-center">Click the buttons below to showcase some fantabulous gifs featuring your favorite TV shows.</p>
+          <p class="lead text-white text-center">Don't see a gif you like? Add one yourself!</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container d-flex justify-content-center">
+    <div class="row">
+      <div class="col-12" id='button-display'>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-2"></div>
+      <div class="input-group col-8 justify-content-center">
+        <input type="text" class="form-control" id='gif-input' placeholder="Add a gif">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" id='add-gif' type="submit">Add</button>
+        </span>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container flex_stuff">
+    <div class="row" id='gif-display'></div>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- JQUERY -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+  <!-- JAVASCRIPT -->
+  <script src="logic.js"></script>
+</body>
+</html>

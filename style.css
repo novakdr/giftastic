@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Besom';
+  src: url('fonts/Besom');
+}
+
+.huge {
+  font-family: 'Besom';
+  /*font-size: 7em;*/
+  margin-bottom: 0;
+}
+
+.jumbo-background {
+  background-color: #ffb74d;
+}
+
+.button_margin {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
